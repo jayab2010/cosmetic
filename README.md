@@ -202,18 +202,19 @@ For security reason the environment variables were set in a separate file env.py
 17.	Go to manual deploy and press depoy branch after while when is no error you will see url of your app.
 18.	Open the Heroku app address adding /admin to the end of the URL and login with the superuser credentials.
 19.	Use the Django admin interface to add data to your app.
-A live website can be found on Heroku (https://e-toptech.herokuapp.com/)
-The repository can be found on Github (https://github.com/adrian80z/e-commerce)
+
+    A live website can be found on Heroku (https://e-toptech.herokuapp.com/)
+    The repository can be found on Github (https://github.com/adrian80z/e-commerce)
 
 ## Credits
 
 **Content**
 
-*	The images on all the products were from Sephora.com(https://www.sephora.com)  
+*	The images on all the products were from [Sephora.com](https://www.sephora.com)  
 *	The Profile Registration & Log in functions was used from the Code Institute course lesson Authentication & Authorisation
 *	Parts of the design and wiring of the project was learned from the Code Institute course lesson Putting It All Together | ECommerce Mini Project
 
-	**Acknowledgements**
+**Acknowledgements**
 
 *	Many thanks to my mentor Usmaan Mujtaba for all suggestions and possible solutions to various issues encountered during project development process.
 
