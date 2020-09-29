@@ -68,48 +68,47 @@ The app can be accessible with or without user registration, but in that case so
 
 ## Technologies used
 
-*	Heroku - is a platform that enables developers to build, run, and operate applications entirely in the cloud
-*	GitHub - provides hosting for software development version control using Git.
-*	Git - version-control system for tracking changes in source code during software development.
-*	Google Fonts - library of free licensed fonts, an interactive web directory for browsing the library, and APIs for conveniently using the fonts via CSS ('Lato' font used in this project).
-*	Python - programming language.
-*	JavaScript - used to program the behavior of Web pages.
-*	jQuery - JavaScript library designed to simplify HTML DOM tree traversal and manipulation
-*	HTML5 - standard markup language for creating Web pages.
-*	CSS3 - used to define styles for Web pages, including the design, layout and variations in display for different devices and screen sizes.
-*	VS Code - code editor redefined and optimized for building and debugging modern web and cloud applications.
-*	Bootstrap 4 - free and open-source CSS framework directed at responsive, mobile-first front-end web development.
-*	Django - a Python-based free and open-source web framework, which follows the model-template-view architectural pattern.
-*	Stipe - a payment company that allows individuals and businesses to make and receive payments over the Internet
-*	Balsamiq - a web-based user interface design tool for creating wireframe
-*	Travis Ci - hosted continuous integration service used to build and test software projects hosted at GitHub and Bitbucket.
+*	**Heroku** - is a platform that enables developers to build, run, and operate applications entirely in the cloud
+*	**GitHub** - provides hosting for software development version control using Git.
+*	**Git** - version-control system for tracking changes in source code during software development.
+*	**Google Fonts** - library of free licensed fonts, an interactive web directory for browsing the library, and APIs for conveniently using the fonts via CSS ('Lato' font used in this project).
+*	**Python** - programming language.
+*	**JavaScript** - used to program the behavior of Web pages.
+*	**jQuery** - JavaScript library designed to simplify HTML DOM tree traversal and manipulation
+*	**HTML5** - standard markup language for creating Web pages.
+*	**CSS3** - used to define styles for Web pages, including the design, layout and variations in display for different devices and screen sizes.
+*	**VS Code** - code editor redefined and optimized for building and debugging modern web and cloud applications.
+*	**Bootstrap 4** - free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+*	**Django** - a Python-based free and open-source web framework, which follows the model-template-view architectural pattern.
+*	**Stipe** - a payment company that allows individuals and businesses to make and receive payments over the Internet
+
 
 ## Testing
 
 **Automated testing**
 
 For the testing following tools and services was used:
-*	Chrome Developer Tools - a set web authoring and debugging tools built into Google Chrome.
-*	CSS Validation -service helps to check validity of Cascading Style Sheets (CSS).
-*	Markup Validation - helps check the validity of Web documents.
-*	JSLint - a static code analysis tool used for checking if JavaScript source code complies with coding rules.
+*	**Chrome Developer Tools** - a set web authoring and debugging tools built into Google Chrome.
+*	**CSS Validation**-service helps to check validity of Cascading Style Sheets (CSS).
+*	**Markup Validation** - helps check the validity of Web documents.
+*	**JSLint** - a static code analysis tool used for checking if JavaScript source code complies with coding rules.
 All validation tests passed: no errors in the DevTools console. CSS and JavaScript have correct syntax as well. The HTML validator did not recognise the Django template tags which resulted in showing errors.
 The website was constantly tested by Travis CI each time it was pushed to git. All test are passed as is indicated on the top of this README.MD file page by green Travis CI icon.
 
 **Manual testing**
 
 Manual testing was performed by clicking every element on page which can be clicked.
-1.	Search form
+1.	**Search form**
 o	Available all the time on menubar
 o	Try to submit empty form and verify that an error message about required fields appear - form doesn't have required attribute. After submiting returning page with all available products.
 o	Try to submit the form with valid input and verify that a success message appears (after entering keyword user is redirected to results page and the product matches searching criteria are displayed)
-2.	Login form page
+2.	**Login form page**
 o	Go to Products(homepage) page
 o	Click Log in link on navigation bar (user is redirected to login page)
 o	Try to submit empty form and verify that an error message about required fields appear(required field message appears)
 o	Try to submit the form with valid input and verify that a success message appears (user is redirected to homepage with successful login message)
 o	Try to submit the form with invalid input and verify that a error message appears (Your username or password is incorrect message appears)
-3.	Registration form page
+3.	**Registration form page**
 o	Go to Product(homepage) page
 o	Click Log in link on navigation bar (user is redirected to registration page)
 o	Click Create account button below the login form
@@ -117,12 +116,12 @@ o	Try to submit empty form and verify that an error message about required field
 o	Try to submit the form with valid input and verify that a success message appears (user is redirected to homepage with success message)
 o	Try to submit the form with invalid input and verify that a error message appears (Unable to register your account message appears)
 o	Click Sign In under Create account button (user is redirected to login page with success message)
-4.	Add to cart form
+4.	**Add to cart form**
 o	Go to Product details page
 o	Try to submit empty form and verify that an error message about required fields appear (required message appears)
 o	Try to submit the form with valid input and verify that a success message appears (Item added to your cart. View cart message appears)
 o	Try to submit the form with invalid input and verify that a error message appears.(field has html5 type number attribute and initial default value 1 preventing entering invalid input)
-5.	Cart form
+5.	**Cart form**
 o	Go to the Cart page
 o	Try to submit empty form and verify that an error message about required fields appear (required message appears)
 o	Try to submit the form with valid input and verify that a success message appears (Cart updated message appears)
@@ -130,7 +129,7 @@ o	Try to submit the form with invalid input and verify that a error message appe
 o	Click Trash icon - item is deleted from cart (message appears)
 o	Click Shoppig button (user is redirected to products page (homepage))
 o	Click Checkout button (user is redirected to checkout page)
-6.	Payment user details/ credit card form
+6.	**Payment user details/ credit card form**
 o	Go to Checkout page
 o	Try to submit empty form and verify that an error message about required fields appear (required message appears)
 o	Try to submit the form with valid input and verify that a success message appears (user is redirected to homepage and message appears)
@@ -140,9 +139,9 @@ o	Try to submit the form with invalid input and verify that a error message appe
     Card number - 4242424242424242
     CVC - any 3 digit number
     Expiry date - any date in the future
-7.	Scrolling up and down all the pages
+7.	**Scrolling up and down all the pages**
 o	Project was manually tested in all the major browsers including Google Chrome, Safari and Internet Explorer to confirm compatibility. The tests were conducted in virtual mode using the google developer tools and also physical mobile phones such us: Samsung Galaxy Note 9, Htc One S, Samsung A20. App looks consistent and works well on different browsers and screen sizes.
-8.	Site navigation
+8.	**site navigation**
 o	Click on Home link (redirect to index/homepage)
 o	Click on logo/brand link (redirect to index/homepage)
 o	Click on Log in link (redirect to login page form)
@@ -151,7 +150,7 @@ o	Click on Cart link (redirect to cart page)
 o	Click on Logout link (user is logged out)
 o	Click on Back to top arrow icon (page is scrolling up)
 All links are working and pointing to correct place.There are no dead links.
-9.	Products(homepage)
+9.	**Products(homepage)**
 o	Click on selected product card (user is redirected to chosen product on product details page)
 
 ## Deployment
@@ -204,6 +203,7 @@ For security reason the environment variables were set in a separate file env.py
 19.	Use the Django admin interface to add data to your app.
 
     A live website can be found on Heroku (https://e-toptech.herokuapp.com/)
+    
     The repository can be found on Github (https://github.com/adrian80z/e-commerce)
 
 ## Credits
