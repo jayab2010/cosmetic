@@ -19,19 +19,33 @@ The purpose of the project is to create an e-commerce app for everyone intereste
 ## Layout
 
 The layout is simple and consistent through all modern browsers. The project has been designed with a mobile first approach and it is fully responsive across devices. To achieve this Bootstrap 4 components library was used along with custom styles. Project consist following pages:
-*	Products(homepage)
+*	**Products(homepage)**
+
 o	page where are displayed all products in form of card with image and short info about specs and price of each product
-*	Product Details
+
+*	**Product Details**
+
 o	Page include all details about selected product - image, description, main components summary, price and add to cart button with input field allowing select product quantity
-*	Cart page / empty cart
-o	Page allows to review what is in cart - Image thumbnail is displayed along with product name and possibility for user to change quantity or delete item completely. Page include total price for all product placed in cart. Below that there are two buttons, one placed on right hand side and second on the left hand side of the screen allowing user to continue shopping (left button) or go to checkout(right button). When we remove all items cart icon is displayed with short info that cart is empty, and user can go back shopping by clicking Continue Shopping button
-*	Search page / no search results
+
+*	**Cart page / empty cart**
+
+o	Page allows to review what is in cart - Image thumbnail is displayed along with product name and possibility for user to change quantity or delete item completely. Page include total price for all product placed in cart. Below that there are two buttons, one placed on right hand side and second on the left hand side of the screen allowing user to continue shopping (left button) or go to checkout(right button). When we remove all items cart icon is displayed with short info that cart is empty, and user can go back shopping by clicking Continue 
+Shopping button.
+
+*	**Search page / no search results**
+
 o	Page displays searching results in form like homepage. There is a card with image and short info about specs and price of each product. When keyword enter search box isn't match any product, search icon is displayed along with text informing user that product is not found.
-*	Checkout page (available after user login)
+
+*	**Checkout page (available after user login)**
+
 o	Page like cart page but the difference is that user cannot update any product details. This is summary before payment. Page displays product thumbnail, name, quantity, price, and total price. Below that user has payment form to fill in with user details and card details. After payment user is redirected to homepage.
-*	Login
+
+*	**Login**
+
 o	Page allows user to login (user get access to checkout page and payment functionality)
-*	Registration
+
+*	**Registration**
+
 o	Page allows user to create an account (user get access to login functionality)
 
 **Wireframes**
@@ -173,6 +187,7 @@ The project was deployed using Heroku as a hosting platform.
 1.	Create a virtual environment for your Python project.
 2.	Create a env.py file in the root project folder.
 3.	Add the following variables to the env.py file:
+
     os.environ.setdefault['SECRET_KEY']
     os.environ.setdefault['STRIPE_PUBLISHABLE']
     os.environ.setdefault['STRIPE_SECRET']
@@ -203,7 +218,7 @@ For security reason the environment variables were set in a separate file env.py
 19.	Use the Django admin interface to add data to your app.
 
     A live website can be found on Heroku (https://e-toptech.herokuapp.com/)
-    
+
     The repository can be found on Github (https://github.com/adrian80z/e-commerce)
 
 ## Credits
