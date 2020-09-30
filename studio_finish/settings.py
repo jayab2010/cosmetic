@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['studiofinish.herokuapp.com', 'localhost']
 
 
 # Application definition
