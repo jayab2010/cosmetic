@@ -1,4 +1,4 @@
-## Link to live version -[Studio Finish](http://google.com)
+## Link to live version -[Studio Finish]( https://studiofinish.herokuapp.com/)
 
 Studio Finish is an e-commerce web application that allows users to search for beauty products stored in database, add them to shopping cart and then make payment using Stripe. App has login system functionality. The guest user can browse, search, and add product to cart only. Checkout and payment option are available for registered users only.
 
@@ -107,7 +107,7 @@ For the testing following tools and services was used:
 *	**Markup Validation** - helps check the validity of Web documents.
 *	**JSLint** - a static code analysis tool used for checking if JavaScript source code complies with coding rules.
 All validation tests passed: no errors in the DevTools console. CSS and JavaScript have correct syntax as well. The HTML validator did not recognise the Django template tags which resulted in showing errors.
-The website was constantly tested by Travis CI each time it was pushed to git. All test are passed as is indicated on the top of this README.MD file page by green Travis CI icon.
+The website was constantly tested by each time it was pushed to git. All test are passed.
 
 **Manual testing**
 
@@ -130,17 +130,17 @@ o	Try to submit empty form and verify that an error message about required field
 o	Try to submit the form with valid input and verify that a success message appears (user is redirected to homepage with success message)
 o	Try to submit the form with invalid input and verify that a error message appears (Unable to register your account message appears)
 o	Click Sign In under Create account button (user is redirected to login page with success message)
-4.	**Add to cart form**
+4.	**Add to bag form**
 o	Go to Product details page
 o	Try to submit empty form and verify that an error message about required fields appear (required message appears)
-o	Try to submit the form with valid input and verify that a success message appears (Item added to your cart. View cart message appears)
+o	Try to submit the form with valid input and verify that a success message appears (Item added to your bag. View bag message appears)
 o	Try to submit the form with invalid input and verify that a error message appears.(field has html5 type number attribute and initial default value 1 preventing entering invalid input)
-5.	**Cart form**
-o	Go to the Cart page
+5.	**bag form**
+o	Go to the bag page
 o	Try to submit empty form and verify that an error message about required fields appear (required message appears)
-o	Try to submit the form with valid input and verify that a success message appears (Cart updated message appears)
+o	Try to submit the form with valid input and verify that a success message appears (bag updated message appears)
 o	Try to submit the form with invalid input and verify that a error message appears (field has html5 type number attribute preventing entering invalid input and also has initial value number of the specific item, which was selected on add to cart page)
-o	Click Trash icon - item is deleted from cart (message appears)
+o	Click remove button - item is deleted from bag (message appears)
 o	Click Shoppig button (user is redirected to products page (homepage))
 o	Click Checkout button (user is redirected to checkout page)
 6.	**Payment user details/ credit card form**
@@ -202,30 +202,31 @@ For security reason the environment variables were set in a separate file env.py
 3.	Give your app a name (it must be unique), select a region and click create app.
 4.	Under resources choose to add on PostgreSQL hobby free.
 5.	Go to settings, press Reveal vars button and copy database url.
-6.	Go back to your IDE and type in git bash pip install dj-database-url which will allow to connect to db url.
+6.	Go back to your IDE and type in pip3 install dj-database-url which will allow to connect to db url.
 7.	Type pip install psycopg2 which allow connect to postgress.
 8.	Type pip freeze > requirements.txt to update packages file.
 9.	Fill the heroku db url value for your environment variables in the env.py file.
 10.	Type python manage.py migrate to create and run migrations.
 11.	Type python manage.py createsuperuser to create a super user. 
-12. Return to the Heroku dashboard and under settings/ config vars click reveal vars. Add the key values for all your environment variables from env.py project file. 13.Type pip install gunicorn - package required to connect to heroku.
-13.	Type pip freeze > requirements.txt to update packages file.
-14.	Create Procfile.
-15.	Commit all changes to github.
-16.	Go to heroku Deploy tab and in deployment method choose github connect, find you repository and press connect.
-17.	Go to manual deploy and press depoy branch after while when is no error you will see url of your app.
-18.	Open the Heroku app address adding /admin to the end of the URL and login with the superuser credentials.
-19.	Use the Django admin interface to add data to your app.
+12. Return to the Heroku dashboard and under settings/ config vars click reveal vars. Add the key values for all your environment variables from env.py project file. 
+13. Type pip install gunicorn - package required to connect to heroku.
+14.	Type pip freeze > requirements.txt to update packages file.
+15.	Create Procfile.
+16.	Commit all changes to github.
+17.	Go to heroku Deploy tab and in deployment method choose github connect, find you repository and press connect.
+18.	Go to manual deploy and press depoy branch after while when is no error you will see url of your app.
+19.	Open the Heroku app address adding /admin to the end of the URL and login with the superuser credentials.
+20.	Use the Django admin interface to add data to your app.
 
-    A live website can be found on Heroku (https://e-toptech.herokuapp.com/)
+    A live website can be found on Heroku ( https://studiofinish.herokuapp.com/)
 
-    The repository can be found on Github (https://github.com/adrian80z/e-commerce)
+    The repository can be found on Github (https://github.com/jayab2010/cosmetic)
 
 ## Credits
 
 **Content**
 
-*	The images on all the products were from [Sephora.com](https://www.sephora.com)  
+*	The images on all the products were from [Sephora.com](https://www.sephora.com),[Jcpenny.com](https://www.jcpenney.com/)
 *	The Profile Registration & Log in functions was used from the Code Institute course lesson Authentication & Authorisation
 *	Parts of the design and wiring of the project was learned from the Code Institute course lesson Putting It All Together | ECommerce Mini Project
 
