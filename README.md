@@ -27,7 +27,7 @@ The layout is simple and consistent through all modern browsers. The project has
 
 	Page include all details about selected product - image, description, main components summary, price and add to cart button with input field allowing select product quantity
 
-*	**Cart page / empty cart**
+*	**Bag page / empty bag**
 
 	Page allows to review what is in cart - Image thumbnail is displayed along with product name and possibility for user to change quantity or delete item completely. Page include total price for all product placed in cart. Below that there are two buttons, one placed on right hand side and second on the left hand side of the screen allowing user to continue shopping (left button) or go to checkout(right button). When we remove all items cart icon is displayed with short info that cart is empty, and user can go back shopping by clicking Continue 
 Shopping button.
