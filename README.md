@@ -51,12 +51,14 @@ Shopping button.
 **Wireframes**
 
 *	Mobile Layout
+
      https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/mobile%20homepage.png
      https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/products%20mb.png
      https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/single%20product%20mb.png
      https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/shopping%20bag%20mb.png
 
 *	Desktop Layout
+
     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/desktop%20homepage.png
     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/products%20dk.png
     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/single%20product%20dk.png
