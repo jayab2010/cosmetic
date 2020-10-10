@@ -50,11 +50,18 @@ Shopping button.
 
 **Wireframes**
 
-*	[Mobile Layout]
-(/workspace/cosmetic/media/wireframe/mobilehomepage.png)
+*	Mobile Layout
+     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/mobile%20homepage.png
+     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/products%20mb.png
+     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/single%20product%20mb.png
+     https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/shopping%20bag%20mb.png
 
 *	Desktop Layout
-
+    https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/desktop%20homepage.png
+    https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/products%20dk.png
+    https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/single%20product%20dk.png
+    https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/shooping%20cart%20dk%20.png
+    https://github.com/jayab2010/cosmetic/blob/master/media/wireframe/checkout%20dk.png
 ## Features
 
 The app can be accessible with or without user registration, but in that case some features will be available after registration only (checkout). Anyone is able to perform search, view results, all details about selected product, add product to cart, view and modify product on cart page.
