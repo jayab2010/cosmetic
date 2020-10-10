@@ -239,7 +239,7 @@ For security reason the environment variables were set in a separate file env.py
 
 *	The images on all the products were from [Sephora.com](https://www.sephora.com),[Jcpenny.com](https://www.jcpenney.com/)
 *	The Profile Registration & Log in functions was used from the Code Institute course lesson Authentication & Authorisation
-*	Parts of the design and wiring of the project was learned from the Code Institute course lesson Putting It All Together | ECommerce Mini Project
+*	Parts of the design and wiring of the project was learned from the Code Institute course lesson.
 
 **Acknowledgements**
 
