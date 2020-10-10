@@ -50,7 +50,9 @@ Shopping button.
 
 **Wireframes**
 
-*	Mobile Layout
+*	[Mobile Layout]
+(/workspace/cosmetic/media/wireframe/mobilehomepage.png)
+
 *	Desktop Layout
 
 ## Features
